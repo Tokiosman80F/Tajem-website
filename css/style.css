@@ -21,6 +21,7 @@ ul
 }
 /* menu bar start */
 
+
 /* active */
 .navbar-light .navbar-nav .active>.nav-link
 {
@@ -112,7 +113,8 @@ ul
 {
     position: fixed;
     width: 100%;
-    z-index: 100;
+    z-index: 110;
+    
 }
 
 /* Slick slider start*/
