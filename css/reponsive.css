@@ -21,6 +21,108 @@
         
         background: white;
     }
+    
+    /* heading after line  */
+    .banner-text h1::after {
+       
+        top: 106px;
+        
+    }
+    /* padding from top bottm */
+    .banner-text {
+        
+        padding-top: 127px;
+        padding-bottom: 56px;
+    }
+    /* banner padding  p */
+    .banner-text p {
+        
+        padding: 60px 50px 50px 50px;
+    }
+
+    /* banner a  */
+
+    .banner-text a {
+    
+        display: inline-block;
+        width: 80%;
+    }
+
+
+    /* out story start  */
+
+    /* our story padding */
+    #about-part {
+        
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    /* our story */
+    .about-text h2 {
+        
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    /* our story paragraph */
+    .about-text p {
+        
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    /* out story  a */
+    .about-text a {
+        
+        width: 100%;
+    }
+
+    /* our story part end */
+
+    /* vedio part */
+    #vedio-part {
+        
+        padding: 120px 0;
+        
+    }
+
+    /* expertise */
+    #service-part {
+        padding: 35px 0px;
+    }
+
+    /* expertise line  */
+    .service-head p::after {
+     
+        top: 2px;
+      }
+
+      /* expertise text  */
+      .service-text {
+        padding-top: 20px;
+    }
+    /* slider  dot */
+    .slick-dots {
+       
+        bottom: -66px;
+       
+    }
+    /* slider btn */
+    .team-text-buttom a {
+       
+        display: inline-block;
+        width: 80%;
+    }
+
+    /* our work a  */
+
+    .project-btn a {
+        
+        width: 80%;
+    }
+
+    
+    
 
  }
 
@@ -47,11 +149,9 @@
 
     /* nav bar text */
     .banner-text {
-        
-        padding-top: 130px;
-        padding-bottom: 139px;
+        padding-top: 100px;
+        padding-bottom: 182px;
     }
-
     /* our story */
     .about-text h2 {
         
@@ -74,7 +174,7 @@
     .about-text a {
      
         margin-top: 13px;
-        width: 50%;
+        width: 100%;
     }
 
     /* vedio part */
@@ -84,7 +184,87 @@
         
     }
 
+    /* Expertise  */
+    .service-text {
+        padding-top: 21px;
+    }
+    /* team slider  dot */
+    .slick-dots {
+        bottom: -51px;
+    }
+    /* our work btn */
+    .project-btn a {
+        
+        width: 100%;
+    }
+    /* arrow left*/
+    .team-arrow-left {
+        
+        top: 81%;
+        left: 15%;
+        
+    }
+    .team-arrow-right {
+        
+        top: 81%;
+        right: 15%;
+        
+    }
 
+    /* form btn */
+    .contact-left a {
+        
+        width: 100%;
+        text-align: center;
+    }
+
+    /* out happy client */
+    .contact-left h3, .contact-right h3 {
+        
+        padding-top: 41px;
+        text-align: center;
+    }
+
+    /* footer header */
+    .footer-top-middle h4 {
+        
+        padding: 17px 0px 37px 0px;
+    }
+    /* footer top right */
+    .footer-top-right
+    {
+        text-align: center;
+    }
+
+
+    /* footer form  */
+    .form-inline .form-control {
+        padding: 20px;
+        width: 530px;
+        margin-left: 10px;
+    }
+    /* footer form heading */
+     .footer-top-right h4 {
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        padding-bottom: 16px;
+        padding-top: 39px;
+    }
+    .btn-custom {
+        
+        padding: 9px 44px;
+    
+    }
+    /* social media logo */
+    .footer-top-right ul li {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        
+        text-align: center;
+        margin-right: 24px;
+    }
  }
 /* 
 // Large devices (desktops, 992px and up) */
