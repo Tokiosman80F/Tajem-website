@@ -1,8 +1,159 @@
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) { 
+
+     /* center the nav list element */
+     .navbar-light .navbar-nav .nav-link {
+        
+        text-align: center;
+    }
+
+    /* drop down ul color change */
+    .navbar-nav {
+        
+        background: rgb(37, 37, 37);
+    }
+
+    /* nav bar color change (the left one )  */
+    .navbar-light .navbar-toggler {
+        
+        background: white;
+    }
+
+    .banner-text {
+      
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .banner-text h1::after {
+       
+        left: 50%;
+        top: 100px;
+        
+    }
+    .banner-text a {
+        
+        display: inline-block;
+        width: 80%;
+    }
+
+    /* our story img */
+      /* img */
+      #about-part {
+        
+        text-align: center;
+        padding-top: 10px;
+    }
+    /* our stroy heading  */
+    .about-text h2 {
+        
+        padding-bottom: 30px;
+        padding-top: 16px;
+    }
+    /* our story paragraph */
+    .about-text p {
+        
+        padding-bottom: 10px;
+    }
+
+    /* service part over all padding */
+    #service-part {
+        padding: 30px 0px;
+    }
+    .service-head p::after {
+      
+        top: 71px;
+  
+    }
+    .service-text {
+        padding-top: 30px;
+    }
+
+    /* team  a*/
+    .team-text-buttom a {
+        
+        display: inline-block;
+        width: 80%;
+    }
+    .team-text-buttom p {
+    
+        padding-top: 108px;
+        
+    }
+
+    .project-part-left h3 {
+        
+        text-align: center;
+    }
+    .project-part-right p {
+       
+        text-align: center;
+    }
+    .project-img img
+    {
+        width: 100%;
+    }
+    .project-btn a {
+        
+        width: 80%;
+    }
+
+    .contact-left a {
+        width: 90%;
+        text-align: center;
+        margin: 16px 20px auto;
+    }
+
+    .contact-left h3, .contact-right h3 {
+       
+        padding-bottom: 35px;
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .team-arrow-left,
+    .team-arrow-right {
+        
+        display: none;
+    }
+
+    .footer-wrap {
+        
+        text-align: center;
+    }
+
+    .footer-top-left p {
+      
+        padding: 13px 83px;
+    }
+    .footer-top-middle p {
+        
+        padding: 0px 114px;
+    }
+
+    .form-inline .form-control {
+        padding: 20px;
+        width: 244px;
+        margin-right: 5px;
+        margin-left: 40px;
+    }
+
+
+    .footer-bottom-left ul , .footer-bottom-right p{
+        
+        text-align: center;
+    }
+}
+
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .navbar-light .navbar-toggler {
+       
+        margin-right: 30px;
+    }
 
     /* center the nav list element */
     .navbar-light .navbar-nav .nav-link {
@@ -45,7 +196,7 @@
     .banner-text a {
     
         display: inline-block;
-        width: 80%;
+        width: 70%;
     }
 
 
@@ -121,9 +272,76 @@
         width: 80%;
     }
 
-    
-    
 
+    /* arrow  */
+    .team-arrow-left ,.team-arrow-right {
+        
+        display: none;
+    }
+
+    /* contact left a */
+    .contact-left a {
+        
+        width: 100%;
+        text-align: center;
+    }
+
+    /* contact heading */
+
+ .contact-right h3 {
+        
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    /* footer 1 */
+    .footer-top-left img {
+        
+        margin-left: 172px;
+    }
+    
+    /* footer 2 */
+    .footer-top-middle
+    {
+        text-align: center;
+    }
+    .footer-top-middle h4, .footer-top-right h4 {
+      
+        font-size: 17px;
+        
+        padding-top: 10px;
+    }
+    .footer-top-middle p {
+        
+        text-align: left;
+        margin-left: 105px;
+    }
+     .footer-top-right h4 {
+    
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .form-inline .form-control {
+      
+        width: 332px;
+        
+    }
+
+    /* logo */
+
+    .footer-top-right ul {
+        
+        text-align: center;
+    }
+
+    /* footer last part */
+    .footer-bottom-left ul , .footer-bottom-right p{
+        
+        text-align: center;
+    }
+   
  }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -267,8 +485,3 @@
     }
  }
 /* 
-// Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
